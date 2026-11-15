@@ -218,7 +218,7 @@ if page == "🏠 Home":
     c3.markdown('<div class="feature-card"><h3>🧪 Skill Growth Simulator</h3><p>Preview how learning missing skills boosts your match score before you start studying.</p></div>', unsafe_allow_html=True)
     st.write("")
     a, b, c = st.columns(3)
-    a.metric("Career Paths", len(careers), "Available Roles")
+    a.metric("Career Guidance", "Personalized", "Tailored to You")
     b.metric("Matching Method", "Weighted AI", "Skill Similarity")
     c.metric("Career Report", "Sleek PDF", "Ready to Download")
     st.info("👈 Open **Career Finder** in the sidebar to start your career match.")
